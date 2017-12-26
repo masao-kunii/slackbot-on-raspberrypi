@@ -1,0 +1,14 @@
+__*
+*.mp3
+.env
+/.tox/
+*.pyc
+*#
+*~
+*.swp
+#*
+/build
+/dist
+/*.egg-info
+.cache
+/.vscode/
