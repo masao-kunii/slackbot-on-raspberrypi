@@ -18,13 +18,16 @@ Basic slackbot implementation using [slackbot](https://github.com/lins05/slackbo
   - SLACK_API_TOKEN
 
 ## Installation & Run
-1.Install python libraries 
+1. Install python libraries 
 ```
 pip3 install -r requirements.txt
 ```
-2.Export environment variables
-3.Execute `python3 run.py`
-4.If you want to run as a daemon edit `slackbot.service` and copy it to `/etc/systemd/system`
+
+2. Export environment variables
+
+3. Execute `python3 run.py`
+
+4. If you want to run as a daemon edit `slackbot.service` and copy it to `/etc/systemd/system`
 
 ## Help
 If you cannot install `pygame`, install the dependencies.
