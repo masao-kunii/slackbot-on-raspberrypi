@@ -8,14 +8,16 @@ Basic slackbot implementation using [slackbot](https://github.com/lins05/slackbo
 - You can see `plugins/plugin.py` for other features.
 
 ## Pre-requisite
-- OS: Raspbian
-- Any speaker device HDMI or 3.5mm jack
-- Python3 and pip3
-- Export these environment variables
-  - AWS_CLIENT_SECRET
-  - AWS_ACCESS_KEY
-  - AWS_REGION
-  - SLACK_API_TOKEN
+- AWS and SLACK account and the access keys
+- For raspberry pi
+  - OS: Raspbian
+  - Any speaker device HDMI or 3.5mm jack
+  - Python3 and pip3
+  - Export these environment variables
+    - AWS_CLIENT_SECRET
+    - AWS_ACCESS_KEY
+    - AWS_REGION
+    - SLACK_API_TOKEN
 
 ## Installation & Run
 1. Install python libraries 
